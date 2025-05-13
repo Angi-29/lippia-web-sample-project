@@ -40,6 +40,7 @@
 
 		<!-- client project custom properties -->
 		<web-app.url>https://practice.automationtesting.in/</web-app.url>
+		<web-app.url.shop>https://practice.automationtesting.in/shop/</web-app.url.shop>
 
 	</properties>
 	<profiles>

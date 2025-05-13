@@ -13,10 +13,10 @@ Feature: Registro
     Then El usuario visualiza el mensaje "<mensaje>"
 
     Examples:
-      | titulo                                         | email | password | mensaje |
-      | Registration-Sign-in               | emailOK               | 123456??ssS??? | Hello emailOK                         |
-      | Registration with invalid Email-id | emailInvalidSinArroba | 123456??ssS??? | invalid Email-id                      |
-      | Registration with empty Email-id   |                       | 123456??ssS??? | Please provide a valid email address. |
-      | Registration with empty password and  Email-id |       |          |   Please provide a valid email address.      |
+      | titulo                                         | email                 | password       | mensaje                               |
+      | Registration-Sign-in                           | emailOK               | 123456??ssS??? | Hello emailOK                         |
+      | Registration with invalid Email-id             | emailInvalidSinArroba | 123456??ssS??? | invalid Email-id                      |
+      | Registration with empty Email-id               |                       | 123456??ssS??? | Please provide a valid email address. |
+      | Registration with empty password and  Email-id |                       |                | Please provide a valid email address. |
 
 
