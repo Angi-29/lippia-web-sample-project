@@ -5,7 +5,7 @@ Feature: Registro
   Background:
     Given El usuario se encuentra en la pagina de Automation Practice Site
 
-  @RegistroExitoso #@Smoke
+  @RegistroExitoso @Smoke
   Scenario Outline: MY ACCOUNT - REGISTRATION "<titulo>"
     When Hace clic en el menu "Mi cuenta"
     And Ingresa las credenciales con correo "<email>" y contraseña "<password>"

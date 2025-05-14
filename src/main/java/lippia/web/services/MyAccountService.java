@@ -25,6 +25,7 @@ public class MyAccountService extends ActionManager {
         WebActionManager.setInput(MyAccountConstants.EMAIL_INPUT_ID, email);
         WebActionManager.waitClickable(MyAccountConstants.PASSWORD_INPUT_ID);
         WebActionManager.setInput(MyAccountConstants.PASSWORD_INPUT_ID, password);
+        WebActionManager.waitClickable(MyAccountConstants.EMAIL_INPUT_ID);
     }
 
     public static void clicBtn(String nomBtn) {

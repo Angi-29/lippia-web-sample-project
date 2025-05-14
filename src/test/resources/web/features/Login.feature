@@ -5,7 +5,7 @@ Feature: Login
   Background:
     Given El usuario se encuentra en la pagina de Automation Practice Site
 
-  @LoginExitoso #@Smoke
+  @LoginExitoso @Smoke
   Scenario Outline: MY ACCOUNT - LOGIN - "<titulo>"
     When Hace clic en "Mi cuenta"
     And Ingresa su correo "<email>" y contrasena "<password>"

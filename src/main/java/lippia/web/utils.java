@@ -25,4 +25,12 @@ public class utils {
         DecimalFormat formato = new DecimalFormat("#,##0.00");
         return formato.format(valor);
     }
+
+    public static void sleep(int segundos) {
+        try {
+            Thread.sleep(segundos * 1000L);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
